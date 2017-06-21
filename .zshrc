@@ -91,20 +91,22 @@ export PATH="/home/vivek/.config/composer/vendor/bin:$PATH"
 alias wl='ssh vivek@wl'
 alias dev='ssh vivek@dev'
 alias dphp='cd ~/Documents/Source/PHP'
-alias dwl='cd ~/Documents/Source/PHP/bbyswhitelabel'
+alias dsk='cd ~/Documents/Source/PHP/bbyswhitelabel'
 #alias twl='terminator -l wl'
 alias doc='docker-compose'
 alias pat='php artisan tinker'
 alias dus='du . -cksh'
 alias pas='php artisan serve'
 alias rmap="git checkout -- public/*/*.map"
+alias apkey="ssh-add ~/.ssh/id_rsa"
 export GOROOT=/usr/local/go
 export GOPATH=/home/vivek/Documents/Source/Go
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
-
+alias skeleton="now -t 6vRk0l4BfSg0PEjEFXSVMmFx"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/usr/local/google-cloud-sdk/path.zsh.inc' ]; then source '/usr/local/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/usr/local/google-cloud-sdk/completion.zsh.inc' ]; then source '/usr/local/google-cloud-sdk/completion.zsh.inc'; fi
+
